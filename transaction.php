@@ -123,11 +123,11 @@ else{
     $mail->isSMTP();
     $mail->Host="smtp.gmail.com";
     $mail->SMTPAuth="true";
-    $mail->Username="epidermx6@gmail.com";
-    $mail->Password="byde vwgs bpte ieks";
+    $mail->Username="";
+    $mail->Password="";
     $mail->SMTPSecure="ssl";
     $mail->Port="465";
-    $mail->setFrom("epidermx6@gmail.com");
+    $mail->setFrom("");
     $mail->addAddress($email);
     $mail->isHTML(true);
     $mail->Subject="Egg Mart-Order Received";
